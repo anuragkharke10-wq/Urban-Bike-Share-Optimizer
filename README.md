@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Urban Bike-Share Asset Allocation Optimizer
 
 ## Project Title
@@ -142,3 +143,6 @@ See `output/sample_output.txt`.
 ## Conclusion
 This project successfully implements the Urban Bike-Share Asset Allocation Optimizer using C++. It focuses on Data Structures and Algorithms instead of GUI or database features. The design is modular, readable, and suitable for DSA-I viva evaluation.
 
+=======
+# Urban-Bike-Share-Optimizer
+>>>>>>> ee30b82c410380268ece0a42e1448369c633a99e
