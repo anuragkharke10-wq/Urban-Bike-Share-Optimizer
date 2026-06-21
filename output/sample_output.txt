@@ -1,0 +1,7 @@
+Sample run flow:
+1. Load Sample Data
+10. Find Bike by ID -> Bike ID 1 details are displayed
+11. Show Stations by Empty Capacity -> Stations ranked by empty docks
+14. Run Rebalancing Optimizer with truck capacity 10 -> Greedy movement plan displayed
+13. Find route from 101 to 104 -> Dijkstra route displayed
+15. Display All Data -> Final system state displayed

@@ -1,0 +1,6 @@
+build/
+*.exe
+*.out
+bike_optimizer
+.DS_Store
+.vscode/

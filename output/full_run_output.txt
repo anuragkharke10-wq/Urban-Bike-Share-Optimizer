@@ -1,0 +1,176 @@
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: Lock registered successfully.
+Lock registered successfully.
+Lock registered successfully.
+Lock registered successfully.
+Bike lane added between station 101 and 102.
+Bike lane added between station 102 and 103.
+Bike lane added between station 101 and 103.
+Bike lane added between station 103 and 104.
+Bike lane added between station 102 and 104.
+Sample data loaded successfully.
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: Enter Bike ID: Bike ID: 1 | Model: Yulu Miracle | Status: Available | Station: 101 | Last Maintenance: 2026-01-12
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: 
+--- Stations Ranked by Empty Spots ---
+Station 104 | Empty Spots: 22
+Station 102 | Empty Spots: 19
+Station 103 | Empty Spots: 2
+Station 101 | Empty Spots: 2
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: Enter Truck Capacity: 
+--- Rebalancing Plan Using Greedy + Priority Queue ---
+Move 7 bikes from Station 101 to Station 104
+Move 3 bikes from Station 103 to Station 102
+Truck remaining capacity: 0
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: Enter Source Station ID: Enter Destination Station ID: Safest/Fastest Path: 101 -> 102 -> 103 -> 104 | Total Cost: 35
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: 
+========== ALL BIKES ==========
+Bike ID: 4 | Model: PedalCity Swift | Status: Available | Station: 104 | Last Maintenance: 2026-02-10
+Bike ID: 3 | Model: Citi Bike Classic | Status: Broken | Station: 103 | Last Maintenance: 2025-12-30
+Bike ID: 2 | Model: Yulu DeX | Status: Available | Station: 101 | Last Maintenance: 2026-01-20
+Bike ID: 1 | Model: Yulu Miracle | Status: Available | Station: 101 | Last Maintenance: 2026-01-12
+
+========== ALL STATIONS ==========
+Station ID: 104 | Name: Mall Dock | Capacity: 30 | Bikes: 15 | Empty Spots: 15
+Station ID: 103 | Name: University Dock | Capacity: 15 | Bikes: 10 | Empty Spots: 5
+Station ID: 102 | Name: Metro Station Dock | Capacity: 25 | Bikes: 9 | Empty Spots: 16
+Station ID: 101 | Name: Central Park Dock | Capacity: 20 | Bikes: 11 | Empty Spots: 9
+
+--- Lock Register Sorted by Lock ID ---
+Lock ID: 5001 | Bike ID: 1 | Station ID: 101 | Status: Active
+Lock ID: 5002 | Bike ID: 2 | Station ID: 101 | Status: Active
+Lock ID: 5003 | Bike ID: 3 | Station ID: 103 | Status: Faulty
+Lock ID: 5004 | Bike ID: 4 | Station ID: 104 | Status: Active
+No charge logs.
+Repair line is empty.
+
+--- City Bike Lane Graph ---
+Station 104 connects to: (103, time=8, safetyPenalty=2) (102, time=20, safetyPenalty=4) 
+Station 103 connects to: (102, time=12, safetyPenalty=1) (101, time=30, safetyPenalty=5) (104, time=8, safetyPenalty=2) 
+Station 102 connects to: (101, time=10, safetyPenalty=2) (103, time=12, safetyPenalty=1) (104, time=20, safetyPenalty=4) 
+Station 101 connects to: (102, time=10, safetyPenalty=2) (103, time=30, safetyPenalty=5) 
+
+================ PedalCity Bike-Share Optimizer ================
+1. Load Sample Data
+2. Add Bike
+3. Add Station
+4. Register Lock
+5. Search Lock by ID
+6. Rent Bike
+7. Rollback Last Charge
+8. Report Broken Bike
+9. Repair Next Bike
+10. Find Bike by ID
+11. Show Stations by Empty Capacity
+12. Add Bike Lane
+13. Find Safest/Fastest Route
+14. Run Rebalancing Optimizer
+15. Display All Data
+0. Exit
+Choose option: Exiting PedalCity system.
