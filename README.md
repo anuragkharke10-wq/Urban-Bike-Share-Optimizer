@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Urban Bike-Share Asset Allocation Optimizer
 
 ## Project Title
